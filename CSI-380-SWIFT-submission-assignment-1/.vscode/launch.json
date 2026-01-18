@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CSI-380-SWIFT-submission-assignment-1}",
+            "name": "Debug SierpinskiSwift",
+            "program": "${workspaceFolder:CSI-380-SWIFT-submission-assignment-1}/.build/debug/SierpinskiSwift",
+            "preLaunchTask": "swift: Build Debug SierpinskiSwift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CSI-380-SWIFT-submission-assignment-1}",
+            "name": "Release SierpinskiSwift",
+            "program": "${workspaceFolder:CSI-380-SWIFT-submission-assignment-1}/.build/release/SierpinskiSwift",
+            "preLaunchTask": "swift: Build Release SierpinskiSwift"
+        }
+    ]
+}
